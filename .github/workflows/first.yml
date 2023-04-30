@@ -1,4 +1,4 @@
-nam: First workflow
+name: First workflow
 on: push
 jobs:
   lint:
