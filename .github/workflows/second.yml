@@ -1,0 +1,10 @@
+name: First workflow
+on: issues
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output
+        uses: echo "${{ toJSON(github)}}"
+
+      
