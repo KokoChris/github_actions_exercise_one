@@ -1,7 +1,7 @@
 name: Second workflow
 on: issues
 jobs:
-  lint:
+  info:
     runs-on: ubuntu-latest
     steps:
       - name: Output
